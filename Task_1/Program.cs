@@ -14,9 +14,9 @@ int [] points = new int[2];        // тип данных в массиве_([] 
 for (int i = 0; i < points.Length; i++) // автоматическое наполнение массива
  {
 while(true)
-
+{
   points[i] = Convert.ToInt32(Console.ReadLine());
-   {if (points[i] !=0)
+   if (points[i] !=0)
    break;
    else
    Console.WriteLine("Incorrect input");
